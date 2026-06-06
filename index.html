@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/fonts.css">
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Автодок</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__left-logo">
+          <a class="header__logo" href="#">
+            <img class="header__logo-image" src="./images/logo.png" alt="car service website logo">
+          </a>
+          <div class="header__text-logo">
+            <p class="header__name-logo">Автодок</p>
+            <p class="header__description-logo">Автомобильный <br> сервисный центр</p>
+          </div>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#about">О нас</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#services">Услуги</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#team">Наша команда</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#process-work">Процесс обслуживания</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#review">Отзывы</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+          <div class="header__menu-contact">
+            <span class="header__menu-contact-icon"></span>
+            <div class="header__menu-contact-info">
+              <a class="header__menu-contact-number" href="#">
+                +7 (385) 221 67 52
+              </a>
+            </div>
+          </div>
+        </nav>
+        <span class="divider"></span>
+        <div class="header__top-number">
+          <p class="header__number-description">Звоните, мы на связи</p>
+          <a class="header__number" href="#">+7 (385) 221 67 52</a>
+        </div>
+        <button class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main_block">
+      <div class="main__bg"></div>
+      <div class="container">
+        <div class="main__content">
+          <div class="main__content-inner">
+            <div class="main__body">
+              <div class="main__subtitle">
+                <p class="main__subtitle-text">Акция до 30 июня </p>
+              </div>
+              <h1 class="main__title">Отправьте марку вашего авто и&nbsp;получите <span class="main__title-color">скидку
+                  на ТО 30%</span></h1>
+              <p class="main__title-description">Экономьте до 30% на каждом ТО. <br>
+                Действует для всех марок автомобилей.</p>
+              <div class="main__body-button">
+                <button class="main__send-mark-button button">Получить скидку</button>
+                <div class="main__body-time">
+                  <p class="main__time-description">Мы открыты</p>
+                  <p class="main__time-work">Ежедневно с 09:00 до 20:00</p>
+                </div>
+                <a class="main__image-adress-mobile" href="#"><b>Адрес:</b></br> г. Барнаул, ул. примерный адрес, д.
+                  1337</a>
+              </div>
+            </div>
+            <div class="main__image-block main__image-blok-desktop">
+              <!-- <img class="main__image" src="./images/main-image.jpg" alt=""> -->
+              <div class="main__image-adress-pc">
+                <a class="main__image-adress" href="#"><b>Адрес:</b> <br> г. Барнаул, ул. примерный адрес, д. 1337</a>
+              </div>
+              <!-- <div class="main__image-diagnostic">
+                <p class="main__diagnostic-text"><b>Диагностика</b> <br> от 15 минут</p>
+              </div> -->
+            </div>
+          </div>
+          <div class="main__cars">
+            <img class="main__car-item" src="/images/cars/mitsubishi.png" alt="">
+            <img class="main__car-item" src="/images/cars/audi.png" alt="">
+            <img class="main__car-item" src="/images/cars/volkswagen.png" alt="">
+            <img class="main__car-item" src="/images/cars/toyota.png" alt="">
+            <img class="main__car-item" src="/images/cars/bmw.png" alt="">
+            <img class="main__car-item" src="/images/cars/honda.png" alt="">
+          </div>
+          <div class="main__award">
+            <ul class="main__award-list">
+              <li class="main__award-item">
+                <span class="main__award-icon-car award-icon"></span>
+                <div class="main__item-text">
+                  <p class="main__award-title main__award-icon-car">623+</p>
+                  <p class="main__award-description">Отремонтированных <br> автомобилей</p>
+                </div>
+              </li>
+              <li class="main__award-item">
+                <span class="main__award-icon-personal award-icon"></span>
+                <div class="main__award-text">
+                  <p class="main__award-title main__award-icon-personal">10</p>
+                  <p class="main__award-description">Квалифицированных <br> мастеров</p>
+                </div>
+              </li>
+              <li class="main__award-item">
+                <span class="main__award-icon-star award-icon"></span>
+                <div class="main__award-text">
+                  <p class="main__award-title main__award-icon-star">8 <span class="award__title-sub">Лет</span></p>
+                  <p class="main__award-description">Практического <br> опыта</p>
+                </div>
+              </li>
+              <li class="main__award-item">
+                <span class="main__award-icon-shield award-icon"></span>
+                <div class="main__award-text">
+                  <p class="main__award-title main__award-icon-shield">6 <span class="award__title-sub">Месяцев</span>
+                  </p>
+                  <p class="main__award-description">Гарантии <br> на&nbsp;выполненные работы</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__content-inner">
+          <div class="about__content-text">
+            <div class="section-title-wrapper title-wrapper--fix">
+              <span class="title-icon"></span>
+              <h2 class="about__title">Доверяйте свой автомобиль профессионалам</h2>
+            </div>
+            <div class="about__company">
+              <p class="about__company-text">Автодок — это современный автосервис, где каждый автомобиль получает
+                внимание, заботу и&nbsp;точность. Мы объединяем опыт мастеров, современные технологии и&nbsp;честный
+                подход к&nbsp;клиенту.
+                Уже более 8 лет мы помогаем водителям чувствовать уверенность на дороге, обеспечивая надёжность
+                каждого ремонта.</p>
+              <div class="about__company-list">
+                <div class="about__company-item">
+                  <span class="about__company-icon about__company-icon--team"></span>
+                  <p> <span class="about__company-list-title">Опытная команда</span> <br> сертифицированные специалисты
+                    с&nbsp;практикой более 5 лет.</p>
+                </div>
+                <div class="about__company-item">
+                  <span class="about__company-icon about__company-icon--tool"></span>
+                  <p> <span class="about__company-list-title">Современное оборудование</span> <br> точная диагностика
+                    <br> и&nbsp;качественный ремонт.
+                  </p>
+                </div>
+                <div class="about__company-item">
+                  <span class="about__company-icon about__company-icon--shield"></span>
+                  <p> <span class="about__company-list-title">Гарантия на все работы</span> <br> до 6 месяцев на ремонт
+                    и&nbsp;установленные детали.</p>
+                </div>
+                <div class="about__company-item">
+                  <span class="about__company-icon about__company-icon--price"></span>
+                  <p> <span class="about__company-list-title">Прозрачные цены</span> <br> фиксированные цены <br> без
+                    скрытых доплат.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about__-content-image">
+            <img class="about__image" src="./images/servise-lobby.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__inner">
+          <div class="section-title-wrapper section-title-wrapper--center">
+            <span class="title-icon"></span>
+            <h2 class="services__title">Как мы возвращаем автомобилю идеальную форму</h2>
+          </div>
+          <div class="services__body">
+            <div class="services__body-card">
+              <img class="services__card-image" src="./images/card-engine.jpg" alt="">
+              <h3 class="services__card-title h3">Ремонт двигателя </h3>
+              <div class="services__card-service">
+                <div class="services__service-row">
+                  <span>Услуга:</span>
+                  <span>Время:</span>
+                  <span>Стоимость:</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена двигателя</span>
+                  <span>2 дня</span>
+                  <span>16000 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Ремонт двигателя</span>
+                  <span>2 дня</span>
+                  <span>60000 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена генератора</span>
+                  <span>2 дня</span>
+                  <span>2400 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена турбины</span>
+                  <span>2 дня</span>
+                  <span>5000 ₽</span>
+                </div>
+                <!-- <ul class="services__card-name-list service__card-engine-list"> -->
+              </div>
+              <button class="services__card-button button">Записаться</button>
+            </div>
+            <div class="services__body-card">
+              <img class="services__card-image" src="./images/card-chassis.jpg" alt="">
+              <h3 class="services__card-title h3">Ремонт ходовой</h3>
+              <div class="services__card-service">
+                <div class="services__service-row">
+                  <span>Услуга:</span>
+                  <span>Время:</span>
+                  <span>Стоимость:</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Диагностика ходовой</span>
+                  <span>2 дня</span>
+                  <span>500 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена амортизатора</span>
+                  <span>2 дня</span>
+                  <span>300 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена пружин</span>
+                  <span>2 дня</span>
+                  <span>1200 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена стоек</span>
+                  <span>2 дня</span>
+                  <span>1200 ₽</span>
+                </div>
+              </div>
+              <button class="services__card-button button">Записаться</button>
+            </div>
+            <div class="services__body-card">
+              <img class="services__card-image" src="./images/card-TO.jpg" alt="">
+              <h3 class="services__card-title h3">Услуги ТО</h3>
+              <div class="services__card-service">
+                <div class="services__service-row">
+                  <span>Услуга:</span>
+                  <span>Время:</span>
+                  <span>Стоимость:</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена масла</span>
+                  <span>2 дня</span>
+                  <span>400 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Ремонт фильтров</span>
+                  <span>2 дня</span>
+                  <span>200 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена тормозной жидкости</span>
+                  <span>2 дня</span>
+                  <span>700 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена масла в трансмиссии</span>
+                  <span>2 дня</span>
+                  <span>200 ₽</span>
+                </div>
+              </div>
+              <button class="services__card-button button">Записаться</button>
+            </div>
+            <div class="services__body-card">
+              <img class="services__card-image" src="./images/card-electronick.jpg" alt="">
+              <h3 class="services__card-title h3">Ремонт электрики</h3>
+              <div class="services__card-service">
+                <div class="services__service-row">
+                  <span>Услуга:</span>
+                  <span>Время:</span>
+                  <span>Стоимость:</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Компьютерная диагностика</span>
+                  <span>2 дня</span>
+                  <span>1000 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Диагностика автоэлектрики</span>
+                  <span>2 дня</span>
+                  <span>1000 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Восстановления проводки</span>
+                  <span>2 дня</span>
+                  <span>1000 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Ремонт после возгорания</span>
+                  <span>2 дня</span>
+                  <span>1000 ₽</span>
+                </div>
+              </div>
+              <button class="services__card-button button">Записаться</button>
+            </div>
+            <div class="services__body-card">
+              <img class="services__card-image" src="./images/card-tire.jpg" alt="">
+              <h3 class="services__card-title h3">Шиномонтаж</h3>
+              <div class="services__card-service">
+                <div class="services__service-row">
+                  <span>Услуга:</span>
+                  <span>Время:</span>
+                  <span>Стоимость:</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Ремонт прокола колеса</span>
+                  <span>2 дня</span>
+                  <span>1500 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Балансировка</span>
+                  <span>2 дня</span>
+                  <span>1500 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Монтаж/демонтаж шин</span>
+                  <span>2 дня</span>
+                  <span>1500 ₽</span>
+                </div>
+              </div>
+              <button class="services__card-button button">Записаться</button>
+            </div>
+            <div class="services__body-card">
+              <img class="services__card-image" src="./images/card-transmission.jpg" alt="">
+              <h3 class="services__card-title h3">Ремонт трансмиссии</h3>
+              <div class="services__card-service">
+                <div class="services__service-row">
+                  <span>Услуга:</span>
+                  <span>Время:</span>
+                  <span>Стоимость:</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена сцепления</span>
+                  <span>2 дня</span>
+                  <span>12000 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена редуктора</span>
+                  <span>2 дня</span>
+                  <span>6000 ₽</span>
+                </div>
+                <div class="services__service-row">
+                  <span>Замена АКПП</span>
+                  <span>2 дня</span>
+                  <span>12000 ₽</span>
+                </div>
+              </div>
+              <button class="services__card-button button">Записаться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="calculator">
+      <div class="container">
+        <div class="section-title-wrapper section-title-wrapper--center">
+          <span class="title-icon-white"></span>
+          <h2 class="calculator__title">Калькулятор стоимости ремонта</h2>
+        </div>
+        <div class="calculator__inner">
+          <div class="calculator__body">
+            <div class="calculator__content">
+              <div class="calculator__select">
+                <div class="calculator__body-car">
+                  <label class="calculator__label-car calculator__label" for="car">Марка автомобиля</label>
+                  <div class="select-wrapper">
+                    <select class="calculator__select-car calculator__select select" name="car-make" id="car">
+                      <option disabled value="" selected>Выберите марку авто</option>
+                      <option value="mark1">BMW</option>
+                      <option value="mark2">Mersedes</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="calculator__body-model">
+                  <label class="calculator__label-model calculator__label" for="model">Модель автомобиля</label>
+                  <div class="select-wrapper">
+                    <select class="calculator__select-model calculator__select select" name="car-model" id="model">
+                      <option disabled value="" selected>Выберите модель авто</option>
+                      <option value="model1">model1</option>
+                      <option value="model2">model2</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="calculator__body-work">
+                  <label class="calculator__label-work calculator__label" for="work">Тип работы</label>
+                  <div class="select-wrapper">
+                    <select class="calculator__select-work calculator__select select" name="type-work" id="work">
+                      <option disabled value="" selected>Выберите тип работы</option>
+                      <option value="work1">work1</option>
+                      <option value="work2">work2</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="calculator__checkbox">
+                <p class="calculator__checkbox-title">Виды работ</p>
+                <div class="calculator__checkbox-list">
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-first">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-first">вентиляция
+                      двигателя-(промывка)</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-second">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-second">головка блока
+                      цилиндров
+                      (сн./уст.) 8 клапанов</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-third">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-third">головка блока
+                      цилиндров
+                      (сн./уст.) 16 клапанов</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-fourth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-fourth">головка блока
+                      цилиндров
+                      (сн./уст.) более 16-ти клапанов</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-fifth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-fifth">замена
+                      масла</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-sixth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-sixth">компьютерная
+                      диагностика</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-seventh">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-seventh">регулировка
+                      клапанов</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-eighth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-eighth">замена
+                      свечей</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-ninth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-ninth">замена прокладки
+                      клапанной крышки</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-tenth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-tenth">замена прокладок
+                      впускного коллектора</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-eleventh">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-eleventh">замена ремня
+                      грм
+                      (8
+                      клапанов)</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-twelfth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-twelfth">замена ремня
+                      грм
+                      (16
+                      клапанов)</label>
+                  </div>
+                  <div class="calculator__checkbox-body">
+                    <input class="calculator__checkbox-checkbox" type="checkbox"
+                      id="calculator__checkbox-selector-thirteenth">
+                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-thirteenth">замена
+                      сальника
+                      распредвала</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="calculator__button">
+              <p class="itog">Итого: 0 рублей</p>
+              <button class="calculator__checkbox-button button">Посчитать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team" id="team">
+      <div class="container">
+        <div class="section-title-wrapper section-title-wrapper--center">
+          <span class="title-icon"></span>
+          <h2 class="team__title">Наши профессионалы</h2>
+        </div>
+        <div class="team__card">
+          <div class="team__card-one card">
+            <img class="team__card-photo" src="./images/team/personal1.png" alt="">
+            <div class="team__card-info">
+              <p class="team__card-position">Должность</p>
+              <p class="team__card-name">Имя Фамиля</p>
+              <p class="team__card-time-work">Стаж работы: 5 лет</p>
+            </div>
+          </div>
+          <div class="team__card-two card">
+            <img class="team__card-photo" src="./images/team/personal2.png" alt="">
+            <div class="team__card-info">
+              <p class="team__card-position">Должность</p>
+              <p class="team__card-name">Имя Фамиля</p>
+              <p class="team__card-time-work">Стаж работы: 5 лет</p>
+            </div>
+          </div>
+          <div class="team__card-three card">
+            <img class="team__card-photo" src="./images/team/personal3.png" alt="">
+            <div class="team__card-info">
+              <p class="team__card-position">Должность</p>
+              <p class="team__card-name">Имя Фамиля</p>
+              <p class="team__card-time-work">Стаж работы: 5 лет</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <div class="section-title-wrapper section-title-wrapper--center">
+          <span class="title-icon"></span>
+          <h2 class="gallery-title">Доказательство нашей работы</h2>
+        </div>
+        <div class="gallery__content">
+          <img class="gallery__content-photo" src="./images/gallery/1.jpg" alt="">
+          <img class="gallery__content-photo" src="./images/gallery/2.jpg" alt="">
+          <img class="gallery__content-photo" src="./images/gallery/3.jpg" alt="">
+          <img class="gallery__content-photo" src="./images/gallery/4.jpg" alt="">
+          <img class="gallery__content-photo" src="./images/gallery/5.jpg" alt="">
+          <img class="gallery__content-photo" src="./images/gallery/6.jpg" alt="">
+          <img class="gallery__content-photo" src="./images/gallery/7.jpg" alt="">
+          <img class="gallery__content-photo" src="./images/gallery/8.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="process-work" id="process-work">
+      <div class="container">
+        <div class="process-work__body">
+          <div class="section-title-wrapper title-wrapper--fix">
+            <span class="title-icon-white"></span>
+            <h2 class="process-work__title">Всего три шага до идеального состояния вашего автомобиля</h2>
+          </div>
+          <div class="process-work__content">
+            <div class="process-work__step">
+              <p class="process-work__step-title process-work__step-one">Заполните заявку или позвоните</p>
+              <p class="process-work__step-description">Оставьте заявку на сайте или свяжитесь с&nbsp;нами — расскажите,
+                что&nbsp;беспокоит в&nbsp;автомобиле. Мы предложим&nbsp;все варианты
+                решения&nbsp;вашей проблемы и&nbsp;предварительнуюстоимость услуг.</p>
+            </div>
+            <div class="process-work__step">
+              <p class="process-work__step-title process-work__step-two">Приезжайте в удобное время</p>
+              <p class="process-work__step-description">Мы согласуем дату и время визита. На&nbsp;месте проведём
+                диагностику авто, уточним детали и&nbsp;обсудим все этапы работ до&nbsp;начала ремонта.</p>
+            </div>
+            <div class="process-work__step">
+              <p class="process-work__step-title process-work__step-three">Заберите авто в отличной форме</p>
+              <p class="process-work__step-description">После ремонта или обслуживания вы получаете готовую машину,
+                гарантию на&nbsp;выполненные работы и&nbsp;рекомендации по&nbsp;дальнейшему уходу.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review" id="review">
+      <div class="container">
+        <div class="section-title-wrapper section-title-wrapper--center">
+          <span class="title-icon"></span>
+          <h2 class="review__title">Что говорят те, кто уже доверил нам свой автомобиль</h2>
+        </div>
+        <div class="review__slider-content">
+          <button class="review__slider-button-left arrow__button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.20711 17.2071C8.81658 17.5976 8.18342 17.5976 7.79289 17.2071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929L7.79289 6.79289C8.18342 6.40237 8.81658 6.40237 9.20711 6.79289C9.59763 7.18342 9.59763 7.81658 9.20711 8.20711L6.41421 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L6.41421 13L9.20711 15.7929C9.59763 16.1834 9.59763 16.8166 9.20711 17.2071Z"
+                fill="black" />
+            </svg>
+          </button>
+          <div class="review__content">
+            <div class="review__slider">
+              <div class="review__slides" id="slides">
+                <div class="review__slide-card">
+                  <div class="review__slide-profile">
+                    <img class="review__profile-avatar" src="./images/review-avatar/avatar-1.jpg" alt="">
+                    <div class="review__profile-info">
+                      <p class="review__profile-name">Иван Иванович</p>
+                      <p class="review__profile-car">Марка авто</p>
+                    </div>
+                  </div>
+                  <p class="review__slide-quote">Опытная команда — сертифицированные специалисты
+                    с практикой более 5 лет. Современное оборудование — точная диагностика и ремонт без лишних затрат.
+                    Гарантия на все работы — до 6 месяцев на ремонт
+                    и установленные детали.Прозрачные цены — фиксированная стоимость без скрытых доплат.</p>
+                </div>
+                <div class="review__slide-card">
+                  <div class="review__slide-profile">
+                    <img class="review__profile-avatar" src="./images/review-avatar/avatar-1.jpg" alt="">
+                    <div class="review__profile-info">
+                      <p class="review__profile-name">Иван Иванович2</p>
+                      <p class="review__profile-car">Марка авто</p>
+                    </div>
+                  </div>
+                  <p class="review__slide-quote">Опытная команда — сертифицированные специалисты
+                    с практикой более 5 лет. Современное оборудование — точная диагностика и ремонт без лишних затрат.
+                    Гарантия на все работы — до 6 месяцев на ремонт
+                    и установленные детали.Прозрачные цены — фиксированная стоимость без скрытых доплат.</p>
+                </div>
+                <div class="review__slide-card">
+                  <div class="review__slide-profile">
+                    <img class="review__profile-avatar" src="./images/review-avatar/avatar-1.jpg" alt="">
+                    <div class="review__profile-info">
+                      <p class="review__profile-name">Иван Иванович3</p>
+                      <p class="review__profile-car">Марка авто</p>
+                    </div>
+                  </div>
+                  <p class="review__slide-quote">Опытная команда — сертифицированные специалисты
+                    с практикой более 5 лет. Современное оборудование — точная диагностика и ремонт без лишних затрат.
+                    Гарантия на все работы — до 6 месяцев на ремонт
+                    и установленные детали.Прозрачные цены — фиксированная стоимость без скрытых доплат.</p>
+                </div>
+                <div class="review__slide-card">
+                  <div class="review__slide-profile">
+                    <img class="review__profile-avatar" src="./images/review-avatar/avatar-1.jpg" alt="">
+                    <div class="review__profile-info">
+                      <p class="review__profile-name">Иван Иванович4</p>
+                      <p class="review__profile-car">Марка авто</p>
+                    </div>
+                  </div>
+                  <p class="review__slide-quote">Опытная команда — сертифицированные специалисты
+                    с практикой более 5 лет. Современное оборудование — точная диагностика и ремонт без лишних затрат.
+                    Гарантия на все работы — до 6 месяцев на ремонт
+                    и установленные детали.Прозрачные цены — фиксированная стоимость без скрытых доплат.</p>
+                </div>
+              </div>
+            </div>
+            <div class="review__dots"></div>
+          </div>
+          <button class="review__slider-button-right arrow__button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13L4 13C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11L17.5858 11L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                fill="black" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="repair">
+      <div class="container">
+        <div class="section-title-wrapper section-title-wrapper--center">
+          <span class="title-icon-white"></span>
+          <h2 class="repair__title">Мы ремонтируем автомобили, а не маскируем проблемы</h2>
+        </div>
+        <div class="repair__content">
+          <div class="repair__details repair__card">
+            <img class="repair__detalis-image repair__image" src="./icons/repair/detalis-icon.svg" alt="">
+            <h4 class="repair__detalis-title repair__card-title">Оригинальные детали согласно спецификациям
+              производителя</h4>
+            <p class="repair__detalis-description">Мы используем только оригинальные&nbsp;запчасти для максимальной
+              безопасности и&nbsp;долговечной работы вашего авто.</p>
+          </div>
+          <div class="repair__cost repair__card">
+            <img class="repair__cost-image repair__image" src="./icons/repair/cost-icon.svg" alt="">
+            <h4 class="repair__cost-title repair__card-title">Справедливые и прозрачные цены ниже среднего по рынку</h4>
+            <p class="repair__cost-description">Вы заранее знаете стоимость работ&nbsp;— без скрытых доплат
+              и&nbsp;неожиданностей.
+              Честные цены без&nbsp;переплат за бренд автосервиса.</p>
+          </div>
+          <div class="repair__repair repair__card">
+            <img class="repair__repair-image repair__image" src="icons/repair/repair-icon.svg" alt="">
+            <h4 class="repair__repair-title repair__card-title">Ремонт по заводским стандартам и техническим регламентам
+            </h4>
+            <p class="repair__repair-description">Используем профессиональное оборудование и регламенты производителей
+              для надежного и&nbsp;долговечного результата.</p>
+          </div>
+          <div class="repair__guarantee repair__card">
+            <img class="repair__guarantee-image repair__image" src="./icons/repair/guarantee-icon.svg" alt="">
+            <h4 class="repair__guarantee-title repair__card-title">Берем ответственность за результат и качество ремонта
+            </h4>
+            <p class="repair__guarantee-description">Мы полностью отвечаем
+              за&nbsp;проделанный ремонт и всегда готовы предоставить отчет о&nbsp;проделанной работе. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="title-icon"></span>
+        <h2 class="footer__title">Мы всегда на связи</h2>
+      </div>
+      <div class="footer__content">
+        <div class="footer__socials">
+          <p class="footer__socials-description">Вы можете позвонить, написать в мессенджер, заполнить форму на сайте
+            или прийти лично — мы&nbsp;обязательно свяжемся с вами</p>
+          <div class="footer__socials-link">
+            <p class="footer__socials-title">Наши социальные сети:</p>
+            <div class="footer__socials-list">
+              <a class="footer__socials-item" href="https://vk.com/melnikov_sergey_sergeevich" target="_blank">
+                <img class="footer__socials-vk" src="./icons/socials/vk.svg" alt="">
+              </a>
+              <a class="footer__socials-item"
+                href="https://wa.me/89612335358?text=%D0%9E%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7+%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81+%D0%9A%D0%B0%D1%80%D1%82%0A%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!+%D0%9C%D0%B5%D0%BD%D1%8F+%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%D0%BE+%D0%B2%D0%B0%D1%88%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5"
+                target="_blank">
+                <img class="footer__socials-whatsap" src="./icons/socials/whatsap.svg" alt="">
+              </a>
+              <a class="footer__socials-item" href="https://viber.click/89612335358" target="_blank">
+                <img class="footer__socials-viber" src="./icons/socials/viber.svg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="footer__socials-number">
+            <p class="footer__number-title footer__socials-title">Звоните нам по телефону:</p>
+            <a class="footer__number" href="#">+7 (385) 221 67 52</a>
+          </div>
+          <div class="footer__socials-time">
+            <p class="footer__time-title footer__socials-title">Мы работаем:</p>
+            <p class="footer__time-work">Пн-вс: 09:00 до 20:00</p>
+          </div>
+        </div>
+        <div class="footer__map">
+          <div class="footer__map-address">
+            <div class="footer__map-link">
+              <p class="footer__address-title footer__socials-title">Приезжайте на обслуживание</p>
+              <a class="footer__adress" href="#">Барнаул, ул. примерный адрес, д. 1337</a>
+            </div>
+            <div style="position:relative;overflow:hidden;">
+              <a href="https://yandex.ru/maps/org/avtodok/126869171550/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Автодок</a>
+              <a href="https://yandex.ru/maps/197/barnaul/category/car_service_auto_repair/184105246/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Автосервис, автотехцентр в Барнауле</a>
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?azimuth=0.038312105531583665&ll=83.695455%2C53.391381&mode=search&oid=126869171550&ol=biz&sctx=ZAAAAAgBEAAaKAoSCQPPvYdL71RAEe%2FIWG3%2BrUpAEhIJ%2FRAbLJykiT8RYwys4%2Fihcj8iBgABAgMEBSgKOABAzc0GSAFiOnJlYXJyPXNjaGVtZV9Mb2NhbC9HZW91cHBlci9BZHZlcnRzL0N1c3RvbU1heGFkdi9FbmFibGVkPTFiOnJlYXJyPXNjaGVtZV9Mb2NhbC9HZW91cHBlci9BZHZlcnRzL0N1c3RvbU1heGFkdi9NYXhhZHY9MTViRHJlYXJyPXNjaGVtZV9Mb2NhbC9HZW91cHBlci9BZHZlcnRzL0N1c3RvbU1heGFkdi9SZWdpb25JZHM9WzEsMTAxNzRdYlhyZWFycj1zY2hlbWVfTG9jYWwvR2VvL0FkdmVydHMvUmVhcnJhbmdlQnlBdWN0aW9uL1NpbWlsYXJPcmdzTGlzdEF1Y3Rpb24vUGFnZUlkPTE5MDkyMDQwYkByZWFycj1zY2hlbWVfTG9jYWwvR2VvdXBwZXIvQWR2ZXJ0cy9NYXhhZHZUb3BNaXgvTWF4YWR2Rm9yTWl4PTEwagJydZ0BzczMPaABAKgBAL0BFn%2BE%2BsIBjgHA9Kebjwehwf6LlQPXhqmxBJys4pgH3tr3z9gDv9urhAWYwveInwO0%2BfiXmgWu4OmYowTnse75BJLRkZWGAtu5rp%2F9BcfAwbzJBfrj%2BI%2FFAtH93oEEm%2BPd5Y4Etsi2wOUD7%2FOB%2FAOK8Y%2FN6QbDhpyT1QX69I6ihQSqvebLrgPevfiIZ8it%2BOd%2Fj5u9lPoGggIU0LDQstGC0L7RgdC10YDQstC40YGKAh0xODQxMDUyNDYkMTg0MTA1MjYwJDE4NDEwNTI1NpICAJoCDGRlc2t0b3AtbWFwc6oCOjI5MjMwNDE3OTEsMTQ2OTI4MzA2OTYyLDQ3MTUyNzY2MjQxLDI1Mzg0Njg1NTAyLDU5MjEzODE3NTQ%3D&sll=83.695455%2C53.391381&sspn=0.030785%2C0.013780&text=%D0%B0%D0%B2%D1%82%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81&tilt=0.2877086329727721&z=16.2"
+                width="392" height="371" frameborder="1" allowfullscreen="true" style="position:relative; width: 100%;">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="footer__form">
+          <form class="footer__main-form" action="">
+            <p class="footer__form-title">Оставьте заявку на и получите ТО бесплатно</p>
+            <p class="footer__form-description">Перезвоним в течение 10 минут</p>
+            <div class="footer__form-inputs">
+              <input type="text" class="footer__form-fio input" placeholder="ФИО" required>
+              <input type="tel" class="footer__form-number input" placeholder="Номер телефона" required>
+              <input type="text" class="footer__form-avto input" placeholder="Введите марку авто">
+            </div>
+            <button class="footer__form-button button">Отправить заявку</button>
+            <p class="footer__form-button-description">Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="./js/slider.js"></script>
+<script src="./js/burger.js"></script>
+
+</html>
