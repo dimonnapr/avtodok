@@ -387,14 +387,11 @@ function renderWorks(selectedWork) {
 
 
 workSelect.addEventListener("change", function () {
-
   renderWorks(this.value);
-
 });
 
 
 renderWorks(workSelect.value);
-// =====================
 
 function addCalculation() {
   const checkboxes = document.querySelectorAll(
@@ -416,10 +413,28 @@ function calculateTotal() {
   totalPrice.textContent = `Итого: ${total} рублей`;
 }
 
+// const popup = document.querySelector(".popup");
+// const openPopupButtons = document.querySelectorAll(
+//   ".popup-button"
+// );
+
+// openPopupButtons.forEach(function (button) {
+//   button.addEventListener("click", function () {
+//     popup.classList.add("active");
+//     document.body.classList.add("lock");
+//   });
+// });
+
+// popup.addEventListener("click", function (event) {
+//   if (event.target === popup) {
+//     popup.classList.remove("active");
+//     document.body.classList.remove("lock");
+//   }
+// });
+
 const popup = document.querySelector(".popup");
-const openPopupButtons = document.querySelectorAll(
-  ".popup-button"
-);
+const popupClose = document.querySelector(".popup__close");
+const openPopupButtons = document.querySelectorAll(".popup-button");
 
 openPopupButtons.forEach(function (button) {
   button.addEventListener("click", function () {
@@ -432,5 +447,16 @@ popup.addEventListener("click", function (event) {
   if (event.target === popup) {
     popup.classList.remove("active");
     document.body.classList.remove("lock");
+  }
+});
+
+popupClose.addEventListener("click", function () {
+  popup.classList.remove("active");
+  document.body.classList.remove("lock");
+});
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Escape" && popup.classList.contains("active")) {
+    closePopup();
   }
 });

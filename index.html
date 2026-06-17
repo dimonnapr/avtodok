@@ -427,16 +427,6 @@
                   <div class="select-wrapper">
                     <select class="calculator__select-model calculator__select select" name="car-model" id="model">
                       <option disabled value="" selected>Выберите модель авто</option>
-                      <!-- <option value="Qashqai">Qashqai</option>
-                      <option value="X-Trail">X-Trail</option>
-                      <option value="Note">Note</option>
-                      <option value="Teana">Teana</option>
-                      <option value="Murano">Murano</option>
-                      <option value="Tiida">Tiida</option>
-                      <option value="Almera">Almera</option>
-                      <option value="Juke">Juke</option>
-                      <option value="Patrol">Patrol</option>
-                      <option value="Maxima">Maxima</option> -->
                     </select>
                   </div>
                 </div>
@@ -444,7 +434,7 @@
                   <label class="calculator__label-work calculator__label" for="work">Тип работы</label>
                   <div class="select-wrapper">
                     <select class="calculator__select-work calculator__select select" name="type-work" id="work">
-                      <option disabled value="Engine" selected>Выберите тип работы</option>
+                      <option disabled value="" selected>Выберите тип работы</option>
                       <option value="Engine">Ремонт двигателя</option>
                       <option value="Chassis">Ремонт ходовой</option>
                       <option value="TO">Услуги ТО</option>
@@ -458,94 +448,6 @@
               <div class="calculator__checkbox">
                 <p class="calculator__checkbox-title">Виды работ</p>
                 <div class="calculator__checkbox-list" id="checkbox-list"></div>
-                <!-- <div class="calculator__checkbox-list">
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-first">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-first">вентиляция
-                      двигателя-(промывка)</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-second">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-second">головка блока
-                      цилиндров
-                      (сн./уст.) 8 клапанов</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-third">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-third">головка блока
-                      цилиндров
-                      (сн./уст.) 16 клапанов</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-fourth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-fourth">головка блока
-                      цилиндров
-                      (сн./уст.) более 16-ти клапанов</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-fifth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-fifth">замена
-                      масла</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-sixth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-sixth">компьютерная
-                      диагностика</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-seventh">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-seventh">регулировка
-                      клапанов</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-eighth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-eighth">замена
-                      свечей</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-ninth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-ninth">замена прокладки
-                      клапанной крышки</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-tenth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-tenth">замена прокладок
-                      впускного коллектора</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-eleventh">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-eleventh">замена ремня
-                      грм
-                      (8
-                      клапанов)</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-twelfth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-twelfth">замена ремня
-                      грм
-                      (16
-                      клапанов)</label>
-                  </div>
-                  <div class="calculator__checkbox-body">
-                    <input class="calculator__checkbox-checkbox" type="checkbox"
-                      id="calculator__checkbox-selector-thirteenth">
-                    <label class="calculator__checkbox-name" for="calculator__checkbox-selector-thirteenth">замена
-                      сальника
-                      распредвала</label>
-                  </div>
-                </div> -->
               </div>
             </div>
             <div class="calculator__button">
@@ -829,6 +731,9 @@
           </p>
         </div>
         <div class="popup__form">
+          <button class="popup__close" type="button">
+            &times;
+          </button>
           <form class="popup__main-form" action="">
             <p class="popup__form-title">Оставьте заявку на и получите ТО бесплатно</p>
             <p class="popup__form-description">Перезвоним в течение 10 минут</p>
